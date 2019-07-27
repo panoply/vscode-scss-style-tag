@@ -2,7 +2,7 @@
 
 ## SCSS Style Tag Support (VS Code)
 
-Syntax highlighting and language and intellisense support for HTML style tags that use a `lang="scss" or lang="sass"` attribute.
+Syntax highlighting and language and intellisense support for HTML style tags that use a `lang="scss"` or `lang="sass"` attribute.
 
 ## Example
 
@@ -18,4 +18,4 @@ Syntax highlighting and language and intellisense support for HTML style tags th
 
 ```
 #### SASS Languages Support
-VS Code does not support pure SASS syntax, only SCSS syntax. This is extension uses as [external extension](https://github.com/TheRealSyler/vscode-sass-indented) dependency which brings SASS language support to VS Code. If you have alternative extensions supporting SASS, consider uninstalling those to prevent grammar conflicts.
+VS Code does not support pure SASS syntax, only SCSS syntax (currently). This is extension uses as [external extension](https://github.com/TheRealSyler/vscode-sass-indented) dependency which brings SASS language support to VS Code. If you have alternative extensions supporting SASS, consider uninstalling those to prevent grammar conflicts.
