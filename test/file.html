@@ -1,0 +1,53 @@
+<style>
+
+  .foo {
+    position: relative;
+    background-color: #444;
+
+    /* Fails*/
+    .scss {
+      font-size: 20px;
+    }
+  }
+
+  .bar {
+    height: 50px;
+    width: 100%;
+  }
+
+</style>
+
+<style lang="scss">
+
+  .foo {
+    position: relative;
+    background-color: #444;
+
+    /* Succeeds */
+    .scss {
+      font-size: 20px;
+    }
+  }
+
+  .bar {
+    height: 50px;
+    width: 100%;
+  }
+
+</style>
+
+
+
+<style lang="sass">
+/* uses extension package by
+/* https://github.com/TheRealSyler/vscode-sass-indented */
+
+$font-stack: Helvetica, sans-serif
+$primary-color: #333
+
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+
+</style>

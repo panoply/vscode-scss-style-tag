@@ -1,0 +1,45 @@
+{
+  "name": "scss-style-tag",
+  "displayName": "SCSS Style Tag",
+  "description": "SCSS and SASS syntax support for HTML style tags.",
+  "publisher": "sissel",
+  "icon": "images/logo.png",
+  "author": "Nikolas Savvidis <nicos@gmx.com>",
+  "version": "0.1.0",
+  "keywords": [
+    "html",
+    "scss tag",
+    "sass-tag",
+    "style tag"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panoply/vscode-scss-style-tag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panoply/vscode-scss-style-tag/issues"
+  },
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "scss-tag.injection",
+        "path": "./syntax/scss-tag.injection.json",
+        "injectTo": ["text.html"],
+        "embeddedLanguages": {
+          "source.css.scss": "scss",
+          "source.sass": "sass"
+        }
+      }
+    ]
+  },
+  "extensionDependencies": [
+    "syler.sass-indented"
+  ]
+}
